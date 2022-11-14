@@ -1,15 +1,11 @@
 [server]
 host = 0.0.0.0
 port = 7125
-enable_debug_logging = True
 klippy_uds_address = /tmp/klippy_uds
 
 [database]
-database_path = ~/.moonraker_database
 
 [file_manager]
-config_path = /home/max_xxv/klipper_config
-log_path = /home/max_xxv/klipper_logs
 
 [data_store]
 temperature_store_size = 600
@@ -43,7 +39,6 @@ force_logins = False
 [history]
 
 [update_manager]
-enable_repo_debug = False
 enable_auto_refresh = False
 refresh_interval = 672
 enable_system_updates = True
