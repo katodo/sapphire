@@ -66,13 +66,3 @@ origin = https://github.com/mainsail-crew/moonraker-timelapse.git
 type = klipper_device
 object_name = output_pin chamber_led
 
-[update_manager moonraker-obico]
-type = git_repo
-path = ~/moonraker-obico
-origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
-env = /home/max_xxv/moonraker-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-	moonraker-obico
-
